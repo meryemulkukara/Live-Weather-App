@@ -34,6 +34,8 @@ OpenWeather API (https://openweathermap.org/current) is used for this data.
 
 ### Frontend ###
 
+Open liveweatherapp_frontend
+
   npm install 
 
   npm start 

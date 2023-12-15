@@ -14,6 +14,7 @@ OpenWeather API (https://openweathermap.org/current) is used for this data.
 
 ## Start ##
   cd your_project_repo_location
+  
   git clone https://github.com/meryemulkukara/LiveWeatherApp-Cyangate.git
   
 

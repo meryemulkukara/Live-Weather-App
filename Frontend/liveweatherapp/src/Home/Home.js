@@ -47,7 +47,8 @@ function Home(){
 
 
     if(error){
-      return <div> Error </div>
+      return <div> 
+        Error! </div>
   }
   else if( !isLoaded){
       return <div> Loading... </div>

@@ -1,0 +1,260 @@
+.imageStyle{
+    
+    background-size:cover;
+    background-position:center  ;
+    flex-direction: column ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height:100vh;
+  }
+
+.section__description{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 10rem;
+    position:fixed;
+    top: 50%;
+   
+
+}
+
+.section__weather{
+    display: grid;
+    grid-template-columns:1fr 0.8fr 0.5fr 1.3fr 1.8fr 1.8fr;;
+    gap: 0.1rem;
+    position:fixed;
+    top: 22%;
+    left: 0%;
+
+}
+
+.celsius{
+    color: #fff59d;
+    position:fixed;
+    top: 24%;
+    font-size: 5em;
+    left: 14%;
+
+}
+
+
+
+.weather_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.1rem ;
+    
+    
+}
+
+.description{
+    font-weight:lighter;
+    color: #fff59d;
+    font-family:sans-serif;
+    letter-spacing:2px;
+    font-size:0.2em;
+}
+
+.icon_style{
+    font-size:7em;
+    color: #fff59d; /* margin-left: 10%; */
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    
+    top: 25%;
+    left: 6%;  
+}
+
+.BsSunrise {
+    font-size:5em;
+    color: #fff59d;
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    
+    top: 28%;
+    left: 55%;    
+  }
+
+  .BsSunset {
+    font-size:5em; 
+    color: #fff59d; 
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    top: 28%;
+    left: 78%;    
+  }
+
+.weather_card_sunrise{
+    font-weight:lighter;
+    color: #fff59d;
+    font-family:sans-serif;
+    letter-spacing:2px;
+    font-size:1.5em;
+    position:fixed;
+    top: 29%;
+    left: 61%;
+}
+
+.weather_card_sunset{
+    font-weight:lighter;
+    color: #fff59d;
+    font-family:sans-serif;
+    letter-spacing:2px;
+    font-size:1.5em;
+    position:fixed;
+    top: 29%;
+    left: 84%;
+}
+
+.weather__card-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1px;
+    color: #fff59d;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+
+
+.weather__card-icon_sunrise_set{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1px;
+    color: #fff59d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:5em ;
+    position:fixed;
+    top: 28%;
+    
+
+}
+
+
+.weather_card_temp{
+    font-weight:lighter;
+    color: #fff59d;
+    font-family:sans-serif;
+    letter-spacing:2px;
+    font-size:1.5em;
+    
+    
+}
+
+.weather_card_temp_low_high{
+    font-weight:lighter;
+    color: #fff59d;
+    font-family:sans-serif;
+    letter-spacing:1px;
+    font-size:1.5em;
+    position:fixed;
+    top: 28%;
+    left: 26%;
+    
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(165, 163, 163, 0.215);
+    padding: 1rem;
+    border-radius: 0.4rem ;
+}
+
+.description__card-icon{
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 2px;
+    color: #fff59d;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.root{
+    --section-overlay:rgba(255, 255, 255, 0.378); 
+    
+}
+
+.title_{
+    font-weight: bold;
+    color: #fff59d;
+    font-family:'Helvetica Neue';
+    position:fixed;
+    top: 5%;
+    left: 40%;
+    letter-spacing:'3px';
+    font-size:x-large;
+    padding: 0%;
+    text-transform: uppercase;
+    line-height: 150%;
+}
+
+.card_def{
+    font-weight: 'bold';
+    color: #fff59d;
+    font-family:sans-serif;
+    
+    letter-spacing:'0.5px';
+    font-size:'1.3em';
+}
+
+.icon{
+    position: absolute;
+    top: 27%;
+    left:28%;
+    border-radius: 10;
+    font-size:'5em';
+    align-items:center;
+    color: #fff59d;
+}
+
+.input_box{
+    border: 0.8px solid white;
+    border-radius: 0.4rem;
+    background-color: transparent;
+    color: white;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-weight: 200;
+    position:fixed;
+    top: 82%;
+    left: 35%;
+}
+
+.input_box:focus{
+    outline: none;
+}
+
+.button_box{
+    padding: 8px 50px;
+    border: 0.8px solid black;
+    border-radius: 0.4rem;
+    font-size: 20px;
+    font-weight: 500;
+    position:fixed;
+    top: 82%;
+    left: 52.7%;
+
+}
+
+.button_box:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}

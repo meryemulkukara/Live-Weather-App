@@ -1,5 +1,7 @@
-package com.LiveWeatherApp.demo;
+package com.LiveWeatherApp.demo.controller;
 
+import com.LiveWeatherApp.demo.dto.Wheather;
+import com.LiveWeatherApp.demo.service.WeatherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

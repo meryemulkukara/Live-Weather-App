@@ -1,8 +1,8 @@
-package com.LiveWeatherApp.demo;
+package com.LiveWeatherApp.demo.service;
 
-import org.slf4j.LoggerFactory;
+import com.LiveWeatherApp.demo.config.WeatherConfiguration;
+import com.LiveWeatherApp.demo.dto.Wheather;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 

@@ -1,4 +1,4 @@
-package com.LiveWeatherApp.demo;
+package com.LiveWeatherApp.demo.dto;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -12,24 +12,37 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "all"
+    "lat",
+    "lon"
 })
 @Generated("jsonschema2pojo")
-public class Clouds {
+public class Coord {
 
-    @JsonProperty("all")
-    private Integer all;
+    @JsonProperty("lat")
+    private Double lat;
+    @JsonProperty("lon")
+    private Double lon;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new LinkedHashMap<String, Object>();
 
-    @JsonProperty("all")
-    public Integer getAll() {
-        return all;
+    @JsonProperty("lat")
+    public Double getLat() {
+        return lat;
     }
 
-    @JsonProperty("all")
-    public void setAll(Integer all) {
-        this.all = all;
+    @JsonProperty("lat")
+    public void setLat(Double lat) {
+        this.lat = lat;
+    }
+
+    @JsonProperty("lon")
+    public Double getLon() {
+        return lon;
+    }
+
+    @JsonProperty("lon")
+    public void setLon(Double lon) {
+        this.lon = lon;
     }
 
     @JsonAnyGetter

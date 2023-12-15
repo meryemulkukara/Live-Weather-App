@@ -1,4 +1,4 @@
-package com.LiveWeatherApp.demo;
+package com.LiveWeatherApp.demo.dto;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

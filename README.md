@@ -23,16 +23,21 @@ OpenWeather API (https://openweathermap.org/current) is used for this data.
 Open LiveWeatherAppWeather_Backend folder.
 
 liveweatherapp.key= #### your API KEY ####
+
 liveweatherapp.city= you may change the city
 
+
 mvn clean install
+
 
 Open #### http://localhost:8080/ ####
 
 ### Frontend ###
 
 npm install 
+
 npm start 
+
 
 Open #### http://localhost:3000 ####
 
